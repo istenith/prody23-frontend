@@ -28,7 +28,7 @@ const Hero = () => {
             primary= 'true'
             dark='true '
             >
-                Get started {hover ? <ArrowForward/> : <ArrowRight
+                GET Started{hover ? <ArrowForward/> : <ArrowRight
                 />}
             </Button>
         </HeroBtnWrapper>

@@ -3,8 +3,8 @@ import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
 
 export const Nav= styled.nav`
-background: transparent ;
-opacity: 70;
+background: #000 ;
+opacity: 0.85;
 height: 80px;
 margin-top: -80px;
 display: flex;
@@ -16,6 +16,10 @@ top: 0;
 z-index: 10;
     @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+    @media only screen and (max-width: 1000px) {
+      width:100%;
+      Overflow-x: hidden;
+    }
 }`
 export const NavbarContainer = styled.div`
 display: flex;
@@ -27,6 +31,11 @@ padding: 0 24px;
 max-width: 1100px;`
 
 export const NavLogo = styled (LinkR)`
+background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 color: #fff;
 justify-self: flex-start;
 cursor: pointer;
@@ -38,6 +47,11 @@ font-weight: bold;
 text-decoration: none;
 `
 export const MobileIcon= styled.div`
+background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 display: none;
 @media screen and (max-width: 768px) {
     display: block;
@@ -63,9 +77,14 @@ margin-right: -22px;
    display: none;}`
 export const NavItem = styled.li`
  height: 80px;
+
  `
 export const NavLinks = styled(LinkS)`
- color: #fff;
+ background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
  display: flex;
  align-items: center;
  text-decoration: none;
@@ -79,16 +98,17 @@ export const NavLinks = styled(LinkS)`
  `
  export const NavBtn = styled.nav`
  display: flex;
- align-items: center;
- @media screen and (max-width: 768px) {
- display: none;`
+ align-items:center;
+ @media screen and (max-width: 768px){
+   display:none;
+ }
+ }`
 
  export const NavBtnLink= styled(LinkR)`
  border-radius: 50px;
- background: #01bf71;
+ background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
  white-space: nowrap;
  padding: 10px 22px;
- color: #010606;
  font-size: 16px;
  outline: none;
  border: none;
@@ -98,7 +118,5 @@ export const NavLinks = styled(LinkS)`
  
  &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
- }
+    background: white;
  `

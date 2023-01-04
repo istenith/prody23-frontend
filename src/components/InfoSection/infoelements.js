@@ -5,6 +5,7 @@ background: ${({lightBg}) =>(lightBg ? 'red' :'black')};
 
 @media screen and (max-width: 768px) {
 padding: 100px 0;
+width:100%;
 `
 export const InfoWrapper = styled.div`
 display: grid;
@@ -54,6 +55,13 @@ text-transform: uppercase;
 margin-bottom: 16px;
 `
 export const Heading = styled.h1`
+background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+padding:5px;
+text-align: center;
 margin-bottom: 24px;
 font-size: 48px;
 line-height: 1.1;
@@ -77,6 +85,10 @@ margin-bottom: 35px;
 font-size: 19px;
 Line-height: 25px;
 color: ${({darkText})=> (darkText ? '#010606': "#fff")};
+@media only screen and (max-width: 800px) {
+    float: none;
+    width: 100%;
+    }
 `
 export const BtnWrap = styled.div`
 display: flex;

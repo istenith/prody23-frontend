@@ -9,13 +9,13 @@ const Info = ({lightBg, id, imgStart, topLine, lightText,headline, darkText, des
           <InfoRow imgStart= {imgStart}>
             <Column1>
               <TextWrapper>
-                <TopLine>
+                <TopLine style={{textAlign: 'center'}}>
                   {topLine}
                 </TopLine>
-                <TopLine>
+                <TopLine style={{textAlign: 'center'}}>
                   {topLine2}
-                </TopLine>
-                <TopLine>
+                </TopLine >
+                <TopLine style={{textAlign: 'center'}}>
                   {topLine3}
                 </TopLine>
                 <Heading lightText= {lightText}>
