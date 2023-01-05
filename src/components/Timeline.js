@@ -96,7 +96,7 @@ const Timeline = () =>
     );
 
 const TimeL = () => <>
-	<h1>React Timeline</h1>
+	<h1>Prodyogyiki Timeline</h1>
 	<Timeline />
 </>;
 export default TimeL;

@@ -4,6 +4,7 @@ import logo from "../assets/img/Unknown-3";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import Tilt from "react-parallax-tilt";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -33,8 +34,9 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="https://www.istenith.com">
+          <Navbar.Brand href="https://www.istenith.com"><Tilt max={46} scale={1.3}>
             <img className="rounded-full" src={logo} alt="Logo" />
+            </Tilt>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
