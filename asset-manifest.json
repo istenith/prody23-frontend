@@ -1,18 +1,29 @@
 {
   "files": {
-    "main.css": "/prody23-frontend/static/css/main.2053e16f.css",
-    "main.js": "/prody23-frontend/static/js/main.0a615432.js",
-    "static/js/496.c6ccbcda.chunk.js": "/prody23-frontend/static/js/496.c6ccbcda.chunk.js",
-    "static/media/video3.mp4": "/prody23-frontend/static/media/video3.df8347e37a7a65f97f05.mp4",
-    "static/media/photo2.svg": "/prody23-frontend/static/media/photo2.33367b6eeb882f62ffc0e156726c4ab5.svg",
-    "static/media/photo.svg": "/prody23-frontend/static/media/photo.fd85f5b85a02c33941e5bd383d7a963b.svg",
+    "main.css": "/prody23-frontend/static/css/main.c4cbf2aa.css",
+    "main.js": "/prody23-frontend/static/js/main.83d0da3d.js",
+    "static/js/787.eb495179.chunk.js": "/prody23-frontend/static/js/787.eb495179.chunk.js",
+    "static/media/color-sharp.png": "/prody23-frontend/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/CentraNo2-Bold.ttf": "/prody23-frontend/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/prody23-frontend/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/prody23-frontend/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/banner-bg.png": "/prody23-frontend/static/media/banner-bg.984891c459802f3a472c.png",
+    "static/media/footer-bg.png": "/prody23-frontend/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/revicons.eot": "/prody23-frontend/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/prody23-frontend/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/Unknown-3": "/prody23-frontend/static/media/Unknown-3.15cdcef820959a14d50b",
+    "static/media/revicons.woff": "/prody23-frontend/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/prody1.svg": "/prody23-frontend/static/media/prody1.fd85f5b85a02c33941e5bd383d7a963b.svg",
+    "static/media/nav-icon3.svg": "/prody23-frontend/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/prody23-frontend/index.html",
-    "main.2053e16f.css.map": "/prody23-frontend/static/css/main.2053e16f.css.map",
-    "main.0a615432.js.map": "/prody23-frontend/static/js/main.0a615432.js.map",
-    "496.c6ccbcda.chunk.js.map": "/prody23-frontend/static/js/496.c6ccbcda.chunk.js.map"
+    "static/media/nav-icon1.svg": "/prody23-frontend/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/prody23-frontend/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.c4cbf2aa.css.map": "/prody23-frontend/static/css/main.c4cbf2aa.css.map",
+    "main.83d0da3d.js.map": "/prody23-frontend/static/js/main.83d0da3d.js.map",
+    "787.eb495179.chunk.js.map": "/prody23-frontend/static/js/787.eb495179.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2053e16f.css",
-    "static/js/main.0a615432.js"
+    "static/css/main.c4cbf2aa.css",
+    "static/js/main.83d0da3d.js"
   ]
 }
