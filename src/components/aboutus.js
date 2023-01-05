@@ -3,6 +3,7 @@ import './hr.css'
 import './cardaboutus.css'
 const Aboutus = () => {
   return (<>
+  <div id= 'about'>
   <div class="grid">
   <hr class="sketch-rule grid__item"/>
 </div>
@@ -249,6 +250,7 @@ const Aboutus = () => {
 </div>
 <div class="grid">
   <hr class="sketch-rule grid__item"/>
+</div>
 </div>
     </>
   )

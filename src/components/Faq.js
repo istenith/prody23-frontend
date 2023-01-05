@@ -26,7 +26,7 @@ const questions = [
   ]
 const Faq = () => {
   return (
-    <div>
+    <div id='faq'>
        <div class="faq-section">
   <header>
     <h2>FAQs</h2> 

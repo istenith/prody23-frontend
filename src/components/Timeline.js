@@ -96,7 +96,9 @@ const Timeline = () =>
     );
 
 const TimeL = () => <>
+<div id='timeline'>
 	<h1>Prodyogyiki Timeline</h1>
 	<Timeline />
+    </div>
 </>;
 export default TimeL;
