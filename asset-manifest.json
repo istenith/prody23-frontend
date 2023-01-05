@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prody23-frontend/static/css/main.c4cbf2aa.css",
-    "main.js": "/prody23-frontend/static/js/main.83d0da3d.js",
+    "main.js": "/prody23-frontend/static/js/main.d7e53b41.js",
     "static/js/787.eb495179.chunk.js": "/prody23-frontend/static/js/787.eb495179.chunk.js",
     "static/media/color-sharp.png": "/prody23-frontend/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/CentraNo2-Bold.ttf": "/prody23-frontend/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -19,11 +19,11 @@
     "static/media/nav-icon1.svg": "/prody23-frontend/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/prody23-frontend/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.c4cbf2aa.css.map": "/prody23-frontend/static/css/main.c4cbf2aa.css.map",
-    "main.83d0da3d.js.map": "/prody23-frontend/static/js/main.83d0da3d.js.map",
+    "main.d7e53b41.js.map": "/prody23-frontend/static/js/main.d7e53b41.js.map",
     "787.eb495179.chunk.js.map": "/prody23-frontend/static/js/787.eb495179.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4cbf2aa.css",
-    "static/js/main.83d0da3d.js"
+    "static/js/main.d7e53b41.js"
   ]
 }
