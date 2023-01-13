@@ -1,11 +1,10 @@
 import React from "react";
 import "./eventss.css";
 const Eventss = () => {
-  return (
-    <div>
+  return (<div id='event'>
+    <div className="#event">
       <div class="header">
         <h1>Events</h1>
-        {/* <h1>Powered by Technology</h1> */}
 
         <p>Here is The list of Event going to be organise soon</p>
       </div>
@@ -59,6 +58,7 @@ const Eventss = () => {
           />
         </div>
       </div>
+    </div>
     </div>
   );
 };

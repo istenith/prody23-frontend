@@ -5,7 +5,7 @@ import "./sponsor.css";
 const title = data.pop();
 
 export default function Sponsors() {
-  return (
+  return (<div id = 'sponsor'>
     <div className="sponsors_iste">
       <section
         id="sponsors"
@@ -73,6 +73,7 @@ export default function Sponsors() {
       
         </div>
         <div className="h-4 md:h-12"></div> */}
+    </div>
     </div>
   );
 }
